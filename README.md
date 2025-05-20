@@ -1,4 +1,5 @@
-# Awesome Ideas & Templates to build on top of the Alchemyst Platform
+# Awesome Alchemyst Platform Cookbook
+Ideas & SaaS templates to build on top of the Alchemyst Platform
 
 ## Table of Contents
 - [Internal Tools](#internal-tools)
