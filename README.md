@@ -12,7 +12,7 @@ Ideas & SaaS templates to build on top of the Alchemyst Platform
 
 ### Documentation
 #### ZenDocs
-The GenAI front for your extensive public-facing organization knowledgebase
+The GenAI front for your extensive public-facing organization knowledgebase 
 
 [![GitHub branch status](https://img.shields.io/github/checks-status/alchemyst-ai/zendocs/main)](https://github.com/alchemyst-ai/zendocs)
 
