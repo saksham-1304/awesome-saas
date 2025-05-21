@@ -8,8 +8,8 @@ Explore these SaaS templates by our cracked team 🧨
 
 | **Name** | **Stars** | **Description** | **Topic(s)** |
 | ---- | ---- | ---- | ---- |
-| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 0 | null |  education,  student
-| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 0 | Make your docs the best, let Alchemyst ZenDocs handle the rest. |  b2b,  docs
+| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 0 | null |  education,  student |
+| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 0 | Make your docs the best, let Alchemyst ZenDocs handle the rest. |  b2b,  docs |
 This is an ever expanding list - we'll keep on adding open source templates!
 ## 🚀 From the Community
 Explore these SaaS templates by our awesome community 🤩
