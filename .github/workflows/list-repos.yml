@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GH_TOKEN }}  # Enables push access
+          token: ${{ secrets.GITHUB_TOKEN }}  # Enables push access
   
       - uses: actions/setup-node@v3
         with:
@@ -41,7 +41,7 @@ jobs:
   
       - name: Commit and push if changed
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Auth for push
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Auth for push
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
             git config user.name "github-actions[bot]"
