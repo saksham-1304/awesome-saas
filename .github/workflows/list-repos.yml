@@ -29,19 +29,26 @@ jobs:
   list-repos:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        token: ${{ secrets.TEMPLATE_TOKEN }}
-        node-version: 18.7.0
-    - run: echo > README.md && node list.js | cat >> README.md
-    - run: |
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}  # Enables push access
+  
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.7.0
+  
+      - run: echo > README.md && node list.js | cat >> README.md
+  
+      - name: Commit and push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Auth for push
+        run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
-            git config user.name "GitHub Action"
-            git config user.email "action@github.com"
-            git add .
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
             git commit -m "Auto-update README.md"
-            git push
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
           fi
     # - run: npm test
 
