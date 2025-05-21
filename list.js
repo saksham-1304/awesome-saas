@@ -5,7 +5,9 @@
 const processTags = (tags) => {
   return tags
     .filter((tag) => tag.includes("alchemyst-awesome-saas"))
-    .map((tag) => tag.replace("alchemyst-awesome-saas", "").replace("-", " ")).join(", ");
+    .map((tag) => tag.replace("alchemyst-awesome-saas", "").replace("-", " "))
+    .filter(res => res.length > 0)
+    .join(", ");
 };
 
 const introduction = () => {
