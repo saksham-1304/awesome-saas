@@ -1,18 +1,31 @@
+
 # Awesome Alchemyst Platform Cookbook
 Ideas & SaaS templates to build on top of the Alchemyst Platform
+At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!
+## 💡 From the Team
+Explore these SaaS templates by our cracked team 🧨
 
-## Table of Contents
-- [Internal Tools](#internal-tools)
-  - [Documentation](#documentation)
-  - [HR Tools](#hr-tools)
-  - [Startup Evaluation](#internal-tools)
 
-## Internal Tools
-<p id="internal-tools" />
+| **Name** | **Stars** | **Description** | **Topic(s)** |
+| ---- | ---- | ---- | ---- |
+| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 0 | Make your docs the best, let Alchemyst ZenDocs handle the rest. | 
+This is an ever expanding list - we'll keep on adding open source templates!
+## 🚀 From the Community
+Explore these SaaS templates by our awesome community 🤩
 
-### Documentation
-#### ZenDocs
-The GenAI front for your extensive public-facing organization knowledgebase 
 
-[![GitHub branch status](https://img.shields.io/github/checks-status/alchemyst-ai/zendocs/main)](https://github.com/alchemyst-ai/zendocs)
+| **Name** | **Stars** | **Description** | **Topic(s)** |
+| ---- | ---- | ---- |  ---- |
+| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 0 | Make your docs the best, let Alchemyst ZenDocs handle the rest. | 
+## For contributors
+Contributors are welcome! Get started by contributing to our projects! **Have a new idea?** Do tell us about it [***here***](https://github.com/orgs/alchemyst-ai/discussions/1)!
+### Can't find your contributions?
+Consider doing the following:
 
+- Check if you have set your repo to public. 
+- Check if you have added a topic "alchemyst-awesome-saas" on your repo.
+- If your repo tags don't show up yet, check if you have added topics starting with "alchemyst-awesome-saas".
+
+**NOTE**: This list refreshes once a day at 12:00 AM UTC. Please be patient while it does :D. 
+    
+    If it still doesn't show up, please [**raise an issue**](https://github.com/Alchemyst-ai/awesome-saas/issues/new)
