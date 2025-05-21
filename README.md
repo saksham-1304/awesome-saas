@@ -17,8 +17,6 @@ Explore these SaaS templates by our awesome community 🤩
 
 | **Name** | **Stars** | **Description** | **Topic(s)** |
 | ---- | ---- | ---- |  ---- |
-| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 0 | null |  education,  student
-| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 0 | Make your docs the best, let Alchemyst ZenDocs handle the rest. |  b2b,  docs
 ## For contributors
 Contributors are welcome! Get started by contributing to our projects! **Have a new idea?** Do tell us about it [***here***](https://github.com/orgs/alchemyst-ai/discussions/1)!
 ### Can't find your contributions?
