@@ -1,3 +1,7 @@
+permissions:
+  contents: write   # Allows pushing code changes
+  issues: read      # Example: grants read access to issues
+  pull-requests: write # Example: grants write access to PRs
 name: Readme Template
 on:
   schedule:
