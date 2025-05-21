@@ -27,5 +27,5 @@ Consider doing the following:
 - If your repo tags don't show up yet, check if you have added topics starting with "alchemyst-awesome-saas".
 
 **NOTE**: This list refreshes once a day at 12:00 AM UTC. Please be patient while it does :D. 
-    
-    If it still doesn't show up, please [**raise an issue**](https://github.com/Alchemyst-ai/awesome-saas/issues/new)
+
+If it still doesn't show up, please [**raise an issue**](https://github.com/Alchemyst-ai/awesome-saas/issues/new)
