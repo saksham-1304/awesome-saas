@@ -79,7 +79,9 @@ const gatherReposFromCommunity = () => {
       preMessageForCommunity();
       console.log("| **Name** | **Stars** | **Description** | **Topic(s)** |");
       console.log("| ---- | ---- | ---- |  ---- |");
-      communityRepoData.map((entry) => {
+      communityRepoData
+        .filter(entry => !entry.full_name.toLowerCase().startsWith("alchemyst-ai"))
+        .map((entry) => {
         if (entry.topics.includes("alchemyst-awesome-saas")) {
           console.log(
             `| [**${entry.full_name}**](https://github.com/${entry.full_name}) | ${entry.stargazers_count} | ${entry.description} | ${processTags(entry.topics)}`
