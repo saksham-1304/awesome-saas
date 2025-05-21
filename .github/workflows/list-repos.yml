@@ -32,7 +32,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
       with:
-        token: ${{ secrets.GH_TOKEN }}
+        token: ${{ secrets.TEMPLATE_TOKEN }}
         node-version: 18.7.0
     - run: echo > README.md && node list.js | cat >> README.md
     - run: |
