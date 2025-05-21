@@ -41,7 +41,7 @@ jobs:
         with:
           node-version: 18.7.0
   
-      - run: echo > README.md && node list.js | cat >> README.md
+      - run: git pull origin main && echo > README.md && node list.js | cat >> README.md
   
       - name: Commit and push if changed
         env:
