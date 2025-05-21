@@ -46,8 +46,8 @@ const postMessageForCommunity = () => {
 `)
   console.log(
     `**NOTE**: This list refreshes once a day at 12:00 AM UTC. Please be patient while it does :D. 
-    
-    If it still doesn't show up, please [**raise an issue**](https://github.com/Alchemyst-ai/awesome-saas/issues/new)`
+
+If it still doesn't show up, please [**raise an issue**](https://github.com/Alchemyst-ai/awesome-saas/issues/new)`
   );
 };
 
@@ -84,7 +84,7 @@ const gatherReposFromCommunity = () => {
         .map((entry) => {
         if (entry.topics.includes("alchemyst-awesome-saas")) {
           console.log(
-            `| [**${entry.full_name}**](https://github.com/${entry.full_name}) | ${entry.stargazers_count} | ${entry.description} | ${processTags(entry.topics)}`
+            `| [**${entry.full_name}**](https://github.com/${entry.full_name}) | ${entry.stargazers_count} | ${entry.description} | ${processTags(entry.topics)} |`
           );
         }
       });
