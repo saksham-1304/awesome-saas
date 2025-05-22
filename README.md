@@ -2,15 +2,6 @@
 # Awesome Alchemyst Platform Cookbook
 Ideas & SaaS templates to build on top of the Alchemyst Platform
 At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!
-## 💡 From the Team
-Explore these SaaS templates by our cracked team 🧨
-
-
-| **Name** | **Stars** | **Description** | **Topic(s)** |
-| ---- | ---- | ---- | ---- |
-| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 0 | null |  education,  student |
-| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 0 | Make your docs the best, let Alchemyst ZenDocs handle the rest. |  b2b,  docs |
-This is an ever expanding list - we'll keep on adding open source templates!
 ## 🚀 From the Community
 Explore these SaaS templates by our awesome community 🤩
 
@@ -29,3 +20,12 @@ Consider doing the following:
 **NOTE**: This list refreshes once a day at 12:00 AM UTC. Please be patient while it does :D. 
 
 If it still doesn't show up, please [**raise an issue**](https://github.com/Alchemyst-ai/awesome-saas/issues/new)
+## 💡 From the Team
+Explore these SaaS templates by our cracked team 🧨
+
+
+| **Name** | **Stars** | **Description** | **Topic(s)** |
+| ---- | ---- | ---- | ---- |
+| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 0 | Upload your syllabus and study to the point based on the information provided without wasting any time |  education,  student |
+| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 0 | Your public documentation processes should be easy. So should your SEO. |  b2b,  docs |
+This is an ever expanding list - we'll keep on adding open source templates!
