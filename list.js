@@ -86,7 +86,7 @@ const gatherReposFromTeam = () => {
       repoDataForTeam.map((entry) => {
         if (entry.topics.includes("alchemyst-awesome-saas")) {
           gatheredTeamRepoInfo +=
-            `\n| [**${entry.full_name}**](https://github.com/${entry.full_name}) | ${entry.stargazers_count} | ${entry.description} | ${processTags(entry.topics)} |`;
+            `| [**${entry.full_name}**](https://github.com/${entry.full_name}) | ${entry.stargazers_count} | ${entry.description} | ${processTags(entry.topics)} |\n`;
         }
       });
       gatheredTeamRepoInfo += '\n';
@@ -116,7 +116,7 @@ const gatherReposFromCommunity = () => {
         .map((entry) => {
           if (entry.topics.includes("alchemyst-awesome-saas")) {
             gatheredCommunityRepoInfo +=
-              `\n| [**${entry.full_name}**](https://github.com/${entry.full_name}) | ${entry.stargazers_count} | ${entry.description} | ${processTags(entry.topics)} |`
+              `| [**${entry.full_name}**](https://github.com/${entry.full_name}) | ${entry.stargazers_count} | ${entry.description} | ${processTags(entry.topics)} |\n`
               ;
           }
         });
