@@ -109,7 +109,7 @@ const gatherReposFromCommunity = () => {
     .then((communityRepoData) => {
       gatheredCommunityRepoInfo += '\n' + preMessageForCommunity();
       gatheredCommunityRepoInfo += "\n| **Name** | **Stars** | **Description** | **Topic(s)** |";
-      gatheredCommunityRepoInfo += "\n| ---- | ---- | ---- |  ---- |";
+      gatheredCommunityRepoInfo += "\n| ---- | ---- | ---- |  ---- |\n";
 
       communityRepoData
         .filter(entry => !entry.full_name.toLowerCase().startsWith("alchemyst-ai"))
