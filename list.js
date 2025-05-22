@@ -94,8 +94,7 @@ const gatherReposFromCommunity = () => {
 
 const main = () => {
   introduction()
-    gatherReposFromTeam())
-    .then(() => gatherReposFromCommunity());
+  gatherReposFromTeam().then(() => gatherReposFromCommunity());
 };
 
 main();
