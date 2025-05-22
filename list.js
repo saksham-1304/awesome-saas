@@ -36,9 +36,9 @@ We maintain the documentation of the Alchemyst API in the form of:
 
 const introduction = () => {
   return `# Awesome Alchemyst Platform Cookbook
-Ideas & SaaS templates to build on top of the Alchemyst Platform
+Make your next big AI idea come to life with the [Alchemyst AI Platform](https://platform.getalchemystai.com).
 
-At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!`;
+At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out - use the resources linked here to lock in and start shipping! 🚀🚀`;
 };
 
 const preMessageForTeam = () => {
