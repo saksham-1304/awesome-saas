@@ -9,6 +9,8 @@ At Alchemyst AI, we love empowering developers and builders with AI. Below is a 
   - [Templates](#templates)
     - [💡 From the Team](#-from-the-team)
     - [🚀 From the Community](#-from-the-community)
+  - [For contributors](#for-contributors)
+    - [Can't find your contributions?](#cant-find-your-contributions)
 
 
 ## Learn about the Alchemyst APIs
@@ -40,3 +42,19 @@ Explore these SaaS templates by our awesome community 🤩
 | ---- | ---- | ---- |  ---- |
 
 
+
+
+## For contributors
+
+Contributors are welcome! Get started by contributing to our projects! **Have a new idea?** Do tell us about it [***here***](https://github.com/orgs/alchemyst-ai/discussions/1)!
+
+### Can't find your contributions?
+Consider doing the following:
+
+- Check if you have set your repo to public.
+- Check if you have added a topic "alchemyst-awesome-saas" on your repo.
+- If your repo tags don't show up yet, check if you have added topics starting with "alchemyst-awesome-saas".
+
+**NOTE**: This list refreshes once a day at 12:00 AM UTC. Please be patient while it does :D.
+
+If it still doesn't show up, please [**raise an issue**](https://github.com/Alchemyst-ai/awesome-saas/issues/new)
