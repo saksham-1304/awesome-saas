@@ -21,7 +21,7 @@ const introduction = () => {
   console.log(`# Awesome Alchemyst Platform Cookbook
 Ideas & SaaS templates to build on top of the Alchemyst Platform`);
   console.log(
-    "At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!"
+    `<br>At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!`
   );
 };
 
@@ -72,6 +72,7 @@ const gatherReposFromTeam = () => {
           );
         }
       });
+      console.log('<br>');
       postMessageForTeam();
     });
 };
@@ -95,6 +96,7 @@ const gatherReposFromCommunity = () => {
           );
         }
       });
+      console.log('<br>');
       postMessageForCommunity();
     });
 };
