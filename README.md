@@ -1,16 +1,23 @@
 
-## Table of Contents
-  - [💡 From the Team](#-from-the-team)
-  - [🚀 From the Community](#-from-the-community)
-
 # Awesome Alchemyst Platform Cookbook
 Ideas & SaaS templates to build on top of the Alchemyst Platform
 
-At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!## Learn about the Alchemyst APIs
+At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!
+
+## Table of Contents
+  - [Learn about the Alchemyst APIs](#learn-about-the-alchemyst-apis)
+  - [Templates](#templates)
+    - [💡 From the Team](#-from-the-team)
+    - [🚀 From the Community](#-from-the-community)
+
+
+## Learn about the Alchemyst APIs
 We maintain the documentation of the Alchemyst API in the form of:
 - [API Documentation](https://platform-backend.getalchemystai.com/api/v1/docs)
 - [Documentation Website](#) ![Static Badge](https://img.shields.io/badge/%20-soon-green)
-## 💡 From the Team
+
+## Templates
+### 💡 From the Team
 
 Explore these SaaS templates by our cracked team 🧨
 
@@ -25,7 +32,7 @@ This is an ever expanding list - we'll keep on adding open source templates!
 
 
 
-## 🚀 From the Community
+### 🚀 From the Community
 Explore these SaaS templates by our awesome community 🤩
 
 
