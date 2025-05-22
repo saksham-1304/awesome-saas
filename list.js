@@ -31,6 +31,7 @@ const preMessageForTeam = () => {
 };
 
 const preMessageForCommunity = () => {
+  console.log("<br>");
   console.log("## 🚀 From the Community");
   console.log("Explore these SaaS templates by our awesome community 🤩\n\n");
 };
