@@ -16,6 +16,7 @@ Explore these SaaS templates by our cracked team 🧨
 | [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 0 | Your public documentation processes should be easy. So should your SEO. |  b2b,  docs |
 <br>
 This is an ever expanding list - we'll keep on adding open source templates!
+<br>
 ## 🚀 From the Community
 Explore these SaaS templates by our awesome community 🤩
 
