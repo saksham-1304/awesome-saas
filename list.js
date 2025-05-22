@@ -10,6 +10,13 @@ const processTags = (tags) => {
     .join(", ");
 };
 
+const references = () => {
+  console.log('## Learn about the Alchemyst APIs');
+  console.log('We maintain the documentation of the Alchemyst API in the form of:');
+  console.log(`- [API Documentation](https://platform-backend.getalchemystai.com/api/v1/docs)`);
+  console.log(`- [Documentation Website](#) ![Static Badge](https://img.shields.io/badge/%20-soon-green)`);
+}
+
 const introduction = () => {
   console.log(`# Awesome Alchemyst Platform Cookbook
 Ideas & SaaS templates to build on top of the Alchemyst Platform`);
@@ -93,7 +100,8 @@ const gatherReposFromCommunity = () => {
 };
 
 const main = () => {
-  introduction()
+  introduction();
+  references();
   gatherReposFromTeam().then(() => gatherReposFromCommunity());
 };
 
