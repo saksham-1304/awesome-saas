@@ -121,7 +121,7 @@ const gatherReposFromCommunity = () => {
           }
         });
       gatheredCommunityRepoInfo += '\n\n';
-      postMessageForCommunity();
+      gatheredCommunityRepoInfo += postMessageForCommunity();
     }).then(() => gatheredCommunityRepoInfo)
     .catch(error => {
       console.log("An error was encountered while gathering community repos: " + error);
