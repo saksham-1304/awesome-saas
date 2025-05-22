@@ -20,8 +20,9 @@ const references = () => {
 const introduction = () => {
   console.log(`# Awesome Alchemyst Platform Cookbook
 Ideas & SaaS templates to build on top of the Alchemyst Platform`);
-  console.log(
-    `<br>At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!`
+  console.log(`
+  
+  At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!`
   );
 };
 
@@ -31,7 +32,7 @@ const preMessageForTeam = () => {
 };
 
 const preMessageForCommunity = () => {
-  console.log("<br>");
+  console.log("\n\n");
   console.log("## 🚀 From the Community");
   console.log("Explore these SaaS templates by our awesome community 🤩\n\n");
 };
@@ -41,6 +42,7 @@ const postMessageForTeam = () => {
 };
 
 const postMessageForCommunity = () => {
+  console.log("\n\n");
   console.log("## For contributors");
   console.log(
     "Contributors are welcome! Get started by contributing to our projects! **Have a new idea?** Do tell us about it [***here***](https://github.com/orgs/alchemyst-ai/discussions/1)!"
@@ -73,7 +75,7 @@ const gatherReposFromTeam = () => {
           );
         }
       });
-      console.log('<br>');
+      console.log('\n');
       postMessageForTeam();
     });
 };
@@ -97,7 +99,7 @@ const gatherReposFromCommunity = () => {
           );
         }
       });
-      console.log('<br>');
+      console.log('\n');
       postMessageForCommunity();
     });
 };
