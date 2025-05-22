@@ -16,7 +16,7 @@ const processTags = (tags) => {
  * @returns {string} - Markdown string with TOC added
  */
 const toc = (markdownString) => {
-  const headings = markdownString.match(/^#{2,6}.+/gm) || [];
+  const headings = markdownString.match(/^#{1,6}.+/gm) || [];
   const toc = headings.map(heading => {
     const level = heading.match(/^#+/)[0].length;
     const text = heading.replace(/^#+\s*/, '');
@@ -27,8 +27,8 @@ const toc = (markdownString) => {
   return `## Table of Contents\n${toc}\n\n${markdownString}`;
 };
 
-const references = () => {
-  return `## Learn about the Alchemyst APIs
+const learnMore = () => {
+  return `\n## Learn about the Alchemyst APIs
 We maintain the documentation of the Alchemyst API in the form of:
 - [API Documentation](https://platform-backend.getalchemystai.com/api/v1/docs)
 - [Documentation Website](#) ![Static Badge](https://img.shields.io/badge/%20-soon-green)`;
@@ -42,14 +42,14 @@ At Alchemyst AI, we love empowering developers and builders with AI. Below is a 
 };
 
 const preMessageForTeam = () => {
-  return `## 💡 From the Team
+  return `### 💡 From the Team
 
 Explore these SaaS templates by our cracked team 🧨\n\n`;
 };
 
 const preMessageForCommunity = () => {
   return `\n\n
-## 🚀 From the Community
+### 🚀 From the Community
 Explore these SaaS templates by our awesome community 🤩\n\n`;
 };
 
@@ -132,14 +132,15 @@ const gatherReposFromCommunity = () => {
 
 const main = async () => {
   let finalString = ``;
-  finalString += introduction();
-  finalString += references();
+  // finalString += introduction();
+  finalString += learnMore();
+  finalString += `\n\n## Templates`;
   const teamRepoInfo = await gatherReposFromTeam();
   finalString += teamRepoInfo;
   const communityRepoInfo = await gatherReposFromCommunity();
   finalString += communityRepoInfo;
 
-  const finalStringWithToc = toc(finalString);
+  const finalStringWithToc = introduction() + '\n\n' + toc(finalString);
   console.log(finalStringWithToc);
 };
 
