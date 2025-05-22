@@ -40,6 +40,7 @@ Explore these SaaS templates by our awesome community 🤩
 
 | **Name** | **Stars** | **Description** | **Topic(s)** |
 | ---- | ---- | ---- |  ---- |
+| [**anuran-roy/histroglyph**](https://github.com/anuran-roy/histroglyph) | 0 | Something good coming soon |  b2b,  uiux |
 
 
 
