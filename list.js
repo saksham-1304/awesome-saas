@@ -52,7 +52,7 @@ If it still doesn't show up, please [**raise an issue**](https://github.com/Alch
 };
 
 const gatherReposFromTeam = () => {
-  fetch("https://api.github.com/users/alchemyst-ai/repos")
+  return fetch("https://api.github.com/users/alchemyst-ai/repos")
     .then((res) => res.json())
     .then((repoDataForTeam) => {
       preMessageForTeam();
@@ -70,7 +70,7 @@ const gatherReposFromTeam = () => {
 };
 
 const gatherReposFromCommunity = () => {
-  fetch(
+  return fetch(
     "https://api.github.com/search/repositories?q=topic:alchemyst-awesome-saas"
   )
     .then((res) => res.json())
