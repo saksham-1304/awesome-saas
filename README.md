@@ -2,6 +2,10 @@
 # Awesome Alchemyst Platform Cookbook
 Ideas & SaaS templates to build on top of the Alchemyst Platform
 At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out!
+## Learn about the Alchemyst APIs
+We maintain the documentation of the Alchemyst API in the form of:
+- [API Documentation](https://platform-backend.getalchemystai.com/api/v1/docs)
+- [Documentation Website](#) ![Static Badge](https://img.shields.io/badge/%20-soon-green)
 ## 💡 From the Team
 Explore these SaaS templates by our cracked team 🧨
 
