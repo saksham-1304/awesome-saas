@@ -2,12 +2,12 @@
 title: Awesome SaaS Templates
 description: Collection of templates using the Alchemyst AI Platform for your next big AI app.
 url: "https://alchemyst-ai.github.io/awesome-saas" # Update if using a custom domain
-baseurl: "" # Set to "" for root, or "/<repo>" if using a project page
+baseurl: "/awesome-saas" # Set to "" for root, or "/<repo>" if using a project page
 
 # Author settings
 author:
   name: Alchemyst AI Team
-  email: your-email@example.com
+  email: anuran@getalchemystai.com
 
 # Build settings
 markdown: kramdown
@@ -32,7 +32,7 @@ plugins:
 
 # Social links (optional)
 social_links:
-  twitter: your_twitter
+  twitter: getalchemyst
   github: Alchemyst-ai/awesome-saas
 
 # Collections (optional, if you want to organize templates)
