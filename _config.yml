@@ -3,6 +3,7 @@ title: Awesome SaaS Templates
 description: Collection of templates using the Alchemyst AI Platform for your next big AI app.
 url: "https://alchemyst-ai.github.io/awesome-saas" # Update if using a custom domain
 baseurl: "/awesome-saas" # Set to "" for root, or "/<repo>" if using a project page
+color_scheme: "dark"
 
 # Author settings
 author:
@@ -11,7 +12,7 @@ author:
 
 # Build settings
 markdown: kramdown
-theme: minima # Change to another supported theme if desired
+theme: "just-the-docs" # minima # Change to another supported theme if desired
 
 # Exclude these files/folders from the build
 exclude:
