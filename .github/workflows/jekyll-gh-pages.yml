@@ -1,44 +1,69 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+# This workflow builds and deploys a Jekyll site to GitHub Pages.
+# Combines certified and non-certified actions, supports both root and /docs directory, and is compatible with modern GitHub Actions versions.
+
+name: Deploy Jekyll site to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Only one deployment at a time. Set cancel-in-progress as appropriate.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
+    # Remove defaults.run.working-directory for flexibility; set working-directory in steps if needed.
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # Optionally detect if /docs exists for Jekyll source
+      - name: Setup Ruby (if using custom plugins/Gemfile)
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true 
+          cache-version: 0
+
+      - name: Install dependencies (if Gemfile present)
+        if: hashFiles('Gemfile') != ''
+        run: bundle install
+        env:
+          JEKYLL_ENV: production
+
+      # Use either the certified Jekyll build action or manual Jekyll build depending on project structure.
+      # (Comment/uncomment as needed.)
+
+      # Certified: Handles most use cases (default . as source, _site as destination)
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
+
+      - name: Build with Jekyll (certified)
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
+          source: ./ # Change to './' if site source is root
           destination: ./_site
+
+      # OR manual (uncomment if using custom Jekyll plugins or configs)
+      # - name: Build with Jekyll (manual)
+      #   run: bundle exec jekyll build --source ./docs --destination ./docs/_site --baseurl "${{ steps.pages.outputs.base_path }}"
+      #   env:
+      #     JEKYLL_ENV: production
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: /_site/
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
