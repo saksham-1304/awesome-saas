@@ -1,0 +1,58 @@
+# Basic site settings
+title: Awesome SaaS Templates
+description: Collection of templates using the Alchemyst AI Platform for your next big AI app.
+url: "https://alchemyst-ai.github.io/awesome-saas" # Update if using a custom domain
+baseurl: "" # Set to "" for root, or "/<repo>" if using a project page
+
+# Author settings
+author:
+  name: Alchemyst AI Team
+  email: your-email@example.com
+
+# Build settings
+markdown: kramdown
+theme: minima # Change to another supported theme if desired
+
+# Exclude these files/folders from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+# Permalinks and pagination
+permalink: pretty
+paginate: 10
+paginate_path: "/page:num/"
+
+# Plugins (GitHub Pages supports only whitelisted plugins)
+plugins:
+  - jekyll-paginate
+
+# Social links (optional)
+social_links:
+  twitter: your_twitter
+  github: Alchemyst-ai/awesome-saas
+
+# Collections (optional, if you want to organize templates)
+collections:
+  templates:
+    output: true
+    permalink: /templates/:path/
+
+# Defaults (optional, for easier front matter)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Alchemyst AI Team"
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# If you want to use a custom domain, uncomment below:
+# domain: example.com
