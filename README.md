@@ -26,8 +26,8 @@ Explore these SaaS templates by our cracked team 🧨
 
 | **Name** | **Stars** | **Description** | **Topic(s)** |
 | ---- | ---- | ---- | ---- |
-| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 5 | Upload your syllabus and study to the point based on the information provided without wasting any time |  education,  student |
-| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 4 | Your public documentation processes should be easy. So should your SEO. |  b2b,  docs |
+| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 6 | Upload your syllabus and study to the point based on the information provided without wasting any time |  education,  student |
+| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 5 | Your public documentation processes should be easy. So should your SEO. |  b2b,  docs |
 
 
 This is an ever expanding list - we'll keep on adding open source templates!
