@@ -26,7 +26,7 @@ Explore these SaaS templates by our cracked team 🧨
 
 | **Name** | **Stars** | **Description** | **Topic(s)** |
 | ---- | ---- | ---- | ---- |
-| [**Alchemyst-ai/pitch-o-scope**](https://github.com/Alchemyst-ai/pitch-o-scope) | 0 | Pitch your idea according to the interests of the company you want to serve. |  b2b,  sales |
+| [**Alchemyst-ai/pitch-o-scope**](https://github.com/Alchemyst-ai/pitch-o-scope) | 1 | Pitch your idea according to the interests of the company you want to serve. |  b2b,  sales |
 | [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 7 | Upload your syllabus and study to the point based on the information provided without wasting any time |  education,  student |
 | [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 5 | Your public documentation processes should be easy. So should your SEO. |  b2b,  docs |
 
