@@ -30,8 +30,9 @@ const toc = (markdownString) => {
 const learnMore = () => {
   return `\n## Learn about the Alchemyst APIs
 We maintain the documentation of the Alchemyst API in the form of:
-- [API Documentation](https://platform-backend.getalchemystai.com/api/v1/docs)
-- [Documentation Website](#) ![Static Badge](https://img.shields.io/badge/%20-soon-green)`;
+- [OpenAPI Documentation](https://platform-backend.getalchemystai.com/api/v1/docs)
+- [API Documentation](https://alchemyst-ai.github.io/technical-docs) ![Static Badge](https://img.shields.io/badge/%20-new-blue)
+- [AI-native Documentation](https://zendocs.getalchemystai.com) ![Static Badge](https://img.shields.io/badge/%20-new-blue)`;
 }
 
 const introduction = () => {
