@@ -10,6 +10,7 @@ const processTags = (tags) => {
     .join(", ");
 };
 
+
 /**
  * Creates a table of contents from markdown headings and adds it to the markdown string
  * @param {string} markdownString - The input markdown text
