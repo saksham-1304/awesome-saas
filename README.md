@@ -43,6 +43,7 @@ Explore these SaaS templates by our awesome community 🤩
 | **Name** | **Stars** | **Description** | **Topic(s)** |
 | ---- | ---- | ---- |  ---- |
 | [**asengupta07/MASHire**](https://github.com/asengupta07/MASHire) | 2 | MASHire is an intelligent and autonomous job posting and recruitment platform powered by AI. It automates candidate screening, interview scheduling, and communication, helping companies save time and hire better talent. |  hiring,  hr,  recruitment |
+| [**haroon0x/PromoAgent**](https://github.com/haroon0x/PromoAgent) | 1 | PromoAgent: An autonomous agent built with LangGraph using Alchemyst AI that discovers marketing opportunities on Reddit, generates tailored content and posts replies without getting blocked. |  marketing,  promotion |
 
 
 
