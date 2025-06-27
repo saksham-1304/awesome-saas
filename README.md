@@ -29,7 +29,7 @@ Explore these SaaS templates by our cracked team 🧨
 | ---- | ---- | ---- | ---- |
 | [**Alchemyst-ai/pitch-o-scope**](https://github.com/Alchemyst-ai/pitch-o-scope) | 1 | Pitch your idea according to the interests of the company you want to serve. |  b2b,  sales |
 | [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 7 | Upload your syllabus and study to the point based on the information provided without wasting any time |  education,  student |
-| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 5 | Your public documentation processes should be easy. So should your SEO. |  b2b,  docs |
+| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 6 | Your public documentation processes should be easy. So should your SEO. |  b2b,  docs |
 
 
 This is an ever expanding list - we'll keep on adding open source templates!
@@ -44,8 +44,9 @@ Explore these SaaS templates by our awesome community 🤩
 | ---- | ---- | ---- |  ---- |
 | [**asengupta07/MASHire**](https://github.com/asengupta07/MASHire) | 2 | MASHire is an intelligent and autonomous job posting and recruitment platform powered by AI. It automates candidate screening, interview scheduling, and communication, helping companies save time and hire better talent. |  hiring,  hr,  recruitment |
 | [**haroon0x/PromoAgent**](https://github.com/haroon0x/PromoAgent) | 1 | PromoAgent: An autonomous agent built with LangGraph using Alchemyst AI that discovers marketing opportunities on Reddit, generates tailored content and posts replies without getting blocked. |  marketing,  promotion |
-| [**kash2104/insureai**](https://github.com/kash2104/insureai) | 0 | null |  medicalinsurance |
+| [**haroon0x/CrawlWise**](https://github.com/haroon0x/CrawlWise) | 1 | CrawlWise – The GEOAgent |  geo,  seo |
 | [**hatif03/travel_mcp_agent**](https://github.com/hatif03/travel_mcp_agent) | 0 | plan your travel with ai. |  travel |
+| [**kash2104/insureai**](https://github.com/kash2104/insureai) | 0 | Upload your insurance documents and discover similar plans—all securely and efficiently. |  medical-insurance |
 
 
 
