@@ -28,7 +28,7 @@ Explore these SaaS templates by our cracked team 🧨
 | **Name** | **Stars** | **Description** | **Topic(s)** |
 | ---- | ---- | ---- | ---- |
 | [**Alchemyst-ai/pitch-o-scope**](https://github.com/Alchemyst-ai/pitch-o-scope) | 1 | Pitch your idea according to the interests of the company you want to serve. |  b2b,  sales |
-| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 7 | Upload your syllabus and study to the point based on the information provided without wasting any time |  education,  student |
+| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 8 | Upload your syllabus and study to the point based on the information provided without wasting any time |  education,  student |
 | [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 6 | Your public documentation processes should be easy. So should your SEO. |  b2b,  docs |
 
 
@@ -45,10 +45,12 @@ Explore these SaaS templates by our awesome community 🤩
 | [**Ayash-Bera/socrates**](https://github.com/Ayash-Bera/socrates) | 5 | Deep Research bot for alchemyst-assignment |  socrates |
 | [**asengupta07/MASHire**](https://github.com/asengupta07/MASHire) | 2 | MASHire is an intelligent and autonomous job posting and recruitment platform powered by AI. It automates candidate screening, interview scheduling, and communication, helping companies save time and hire better talent. |  hiring,  hr,  recruitment |
 | [**haroon0x/PromoAgent**](https://github.com/haroon0x/PromoAgent) | 1 | PromoAgent: An autonomous agent built with LangGraph using Alchemyst AI that discovers marketing opportunities on Reddit, generates tailored content and posts replies without getting blocked. |  marketing,  promotion |
-| [**haroon0x/TheAgent**](https://github.com/haroon0x/TheAgent) | 1 | A CLI Code Agent for automated Python code documentation, migration, refactoring, and analysis. |  code,  codeagent |
 | [**haroon0x/CrawlWise**](https://github.com/haroon0x/CrawlWise) | 1 | CrawlWise – The GEOAgent |  geo,  seo |
+| [**haroon0x/TheAgent**](https://github.com/haroon0x/TheAgent) | 1 | A CLI Code Agent for automated Python code documentation, migration, refactoring, and analysis. |  code,  codeagent |
 | [**kash2104/insureai**](https://github.com/kash2104/insureai) | 0 | Upload your insurance documents and discover similar plans—all securely and efficiently. |  medical-insurance |
 | [**hatif03/travel_mcp_agent**](https://github.com/hatif03/travel_mcp_agent) | 0 | plan your travel with ai. |  travel |
+| [**itsshresth/dmdom**](https://github.com/itsshresth/dmdom) | 0 | null |  dm |
+| [**mayank-sengar/VC_Compass**](https://github.com/mayank-sengar/VC_Compass) | 0 | VC-Compass: An agent that matches startup pitches with relevant VCs by scraping investor data, detecting pitch domains, and evaluating fit using Alchemyst AI. |  vc |
 
 
 
