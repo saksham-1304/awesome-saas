@@ -115,6 +115,7 @@ const gatherReposFromCommunity = () => {
 
       communityRepoData
         .filter(entry => !entry.full_name.toLowerCase().startsWith("alchemyst-ai"))
+        .toSorted((a, b) => { return a.full_name.localeCompare(b.full_name)})
         .map((entry) => {
           if (entry.topics.includes("alchemyst-awesome-saas")) {
             gatheredCommunityRepoInfo +=
