@@ -33,7 +33,10 @@ const learnMore = () => {
 We maintain the documentation of the Alchemyst API in the form of:
 - [OpenAPI Documentation](https://platform-backend.getalchemystai.com/api/v1/docs)
 - [API Documentation](https://alchemyst-ai.github.io/technical-docs) ![Static Badge](https://img.shields.io/badge/%20-new-blue)
-- [AI-native Documentation](https://zendocs.getalchemystai.com) ![Static Badge](https://img.shields.io/badge/%20-new-blue)`;
+- [AI-native Documentation](https://zendocs.getalchemystai.com) ![Static Badge](https://img.shields.io/badge/%20-new-blue)
+
+## Related Links
+- [**Community Leaderboard**](./leaderboard.md)`;
 }
 
 const introduction = () => {
@@ -115,7 +118,7 @@ const gatherReposFromCommunity = () => {
 
       communityRepoData
         .filter(entry => !entry.full_name.toLowerCase().startsWith("alchemyst-ai"))
-        .sort((a, b) => { return a.full_name.localeCompare(b.full_name)})
+        .sort((a, b) => { return a.full_name.localeCompare(b.full_name) })
         .map((entry) => {
           if (entry.topics.includes("alchemyst-awesome-saas")) {
             gatheredCommunityRepoInfo +=
