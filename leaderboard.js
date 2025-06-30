@@ -45,16 +45,33 @@ const createLeaderboardString = (contributorStats) => {
     .sort((a, b) => b[1].totalStars - a[1].totalStars);
 
   let leaderboardString = `# Alchemyst Platform Community Leaderboard\n\n`;
-  leaderboardString += `Recognition for our amazing community contributors! 🏆\n\n`;
-  leaderboardString += `| **Contributor** | **Projects** | **Total Stars** |\n`;
-  leaderboardString += `| -------------- | ------------ | --------------- |\n`;
+  leaderboardString += `Recognition for our amazing community of **${sortedContributors.length}** contributors! 🏆\n\n`;
+  leaderboardString += `| **Rank** | **Contributor** | **Projects** | **Total Stars** |\n`;
+  leaderboardString += `| -------------- | -------------- | ------------ | --------------- |\n`;
 
-  sortedContributors.forEach(([contributor, stats]) => {
+  sortedContributors.forEach(([contributor, stats], idx) => {
     const projectsList = stats.repos
-      .map(repo => `[${repo.name}](${repo.url}) (⭐${repo.stars})`)
+      .map((repo) => {
+        return `[${repo.name}](${repo.url}) (⭐${repo.stars})`
+      })
       .join(', ');
 
-    leaderboardString += `| [${contributor}](${stats.profile}) | ${projectsList} | ${stats.totalStars} |\n`;
+    let position = idx + 1;
+
+    switch (position) {
+      case 1:
+        position = `🥇 ${position}`
+        break;
+      case 2:
+        position = `🥈 ${position}`
+        break;
+      case 3:
+        position = `🥉 ${position}`
+        break;
+      default:
+        position = `🌟 ${position}`
+    }
+    leaderboardString += `| ${position} | [${contributor}](${stats.profile}) | ${projectsList} | ${stats.totalStars} |\n`;
   });
 
   return leaderboardString;
