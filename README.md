@@ -6,6 +6,7 @@ At Alchemyst AI, we love empowering developers and builders with AI. Below is a 
 
 ## Table of Contents
   - [Learn about the Alchemyst APIs](#learn-about-the-alchemyst-apis)
+  - [Related Links](#related-links)
   - [Templates](#templates)
     - [💡 From the Team](#-from-the-team)
     - [🚀 From the Community](#-from-the-community)
@@ -18,6 +19,9 @@ We maintain the documentation of the Alchemyst API in the form of:
 - [OpenAPI Documentation](https://platform-backend.getalchemystai.com/api/v1/docs)
 - [API Documentation](https://alchemyst-ai.github.io/technical-docs) ![Static Badge](https://img.shields.io/badge/%20-new-blue)
 - [AI-native Documentation](https://zendocs.getalchemystai.com) ![Static Badge](https://img.shields.io/badge/%20-new-blue)
+
+## Related Links
+- [**Community Leaderboard**](./leaderboard.md)
 
 ## Templates
 ### 💡 From the Team
@@ -53,7 +57,7 @@ Explore these SaaS templates by our awesome community 🤩
 | [**itsshresth/dmdom**](https://github.com/itsshresth/dmdom) | 0 | generates cold dms , by getting information about target's bio and recent tweets and user intent of dmming |  dm |
 | [**kash2104/insureai**](https://github.com/kash2104/insureai) | 0 | Upload your insurance documents and discover similar plans—all securely and efficiently. |  medical-insurance |
 | [**mayank-sengar/VC_Compass**](https://github.com/mayank-sengar/VC_Compass) | 0 | VC-Compass: An agent that matches startup pitches with relevant VCs by scraping investor data, detecting pitch domains, and evaluating fit using Alchemyst AI. |  vc |
-| [**soumyacodes007/AlcheAnimyst**](https://github.com/soumyacodes007/AlcheAnimyst) | 2 | AI tool that turns your written prompts or code into 2D animated videos with sound. Powered by Alchemyst AI |  |
+| [**soumyacodes007/AlcheAnimyst**](https://github.com/soumyacodes007/AlcheAnimyst) | 4 | AI tool that turns your written prompts or code into 2D animated videos with sound. Powered by Alchemyst AI |  |
 
 
 
