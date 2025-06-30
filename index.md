@@ -42,16 +42,18 @@ Explore these SaaS templates by our awesome community 🤩
 
 | **Name** | **Stars** | **Description** | **Topic(s)** |
 | ---- | ---- | ---- |  ---- |
-| [**Ayash-Bera/socrates**](https://github.com/Ayash-Bera/socrates) | 5 | Deep Research bot made using alchemyst |  socrates |
+| [**Ayash-Bera/socrates**](https://github.com/Ayash-Bera/socrates) | 7 | Deep Research bot made using alchemyst |  socrates |
 | [**asengupta07/MASHire**](https://github.com/asengupta07/MASHire) | 2 | MASHire is an intelligent and autonomous job posting and recruitment platform powered by AI. It automates candidate screening, interview scheduling, and communication, helping companies save time and hire better talent. |  hiring,  hr,  recruitment |
 | [**haroon0x/PromoAgent**](https://github.com/haroon0x/PromoAgent) | 1 | PromoAgent: An autonomous agent built with LangGraph using Alchemyst AI that discovers marketing opportunities on Reddit, generates tailored content and posts replies without getting blocked. |  marketing,  promotion |
 | [**haroon0x/TheAgent**](https://github.com/haroon0x/TheAgent) | 1 | A CLI Code Agent for automated Python code documentation, migration, refactoring, and analysis. |  code,  codeagent |
+| [**soumyacodes007/AlcheAnimyst**](https://github.com/soumyacodes007/AlcheAnimyst) | 1 | AI tool that turns your written prompts or code into 2D animated videos with sound. Powered by Alchemyst AI |  |
 | [**haroon0x/CrawlWise**](https://github.com/haroon0x/CrawlWise) | 1 | CrawlWise – The GEOAgent |  geo,  seo |
 | [**hatif03/travel_mcp_agent**](https://github.com/hatif03/travel_mcp_agent) | 0 | plan your travel with ai. |  travel |
-| [**soumyacodes007/AlcheAnimyst**](https://github.com/soumyacodes007/AlcheAnimyst) | 0 | AI tool that turns your written prompts or code into 2D animated videos with sound. Powered by Alchemyst AI |  |
-| [**kash2104/insureai**](https://github.com/kash2104/insureai) | 0 | Upload your insurance documents and discover similar plans—all securely and efficiently. |  medical-insurance |
-| [**itsshresth/dmdom**](https://github.com/itsshresth/dmdom) | 0 | null |  dm |
+| [**foxy-dev1/Telegram-MemeGenerator-Bot**](https://github.com/foxy-dev1/Telegram-MemeGenerator-Bot) | 0 | null |  |
 | [**mayank-sengar/VC_Compass**](https://github.com/mayank-sengar/VC_Compass) | 0 | VC-Compass: An agent that matches startup pitches with relevant VCs by scraping investor data, detecting pitch domains, and evaluating fit using Alchemyst AI. |  vc |
+| [**itsshresth/dmdom**](https://github.com/itsshresth/dmdom) | 0 | generates cold dms , by getting information about target's bio and recent tweets and user intent of dmming |  dm |
+| [**kash2104/insureai**](https://github.com/kash2104/insureai) | 0 | Upload your insurance documents and discover similar plans—all securely and efficiently. |  medical-insurance |
+| [**itsshresth/brainrot**](https://github.com/itsshresth/brainrot) | 0 | Generate brainrot ai videos about any topic you want (uses alchemyst ai) |  creator |
 
 
 
