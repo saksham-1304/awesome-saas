@@ -21,7 +21,7 @@ We maintain the documentation of the Alchemyst API in the form of:
 - [AI-native Documentation](https://zendocs.getalchemystai.com) ![Static Badge](https://img.shields.io/badge/%20-new-blue)
 
 ## Related Links
-- [**Community Leaderboard**](./leaderboard/README.md)
+- [**Community Leaderboard**](./leaderboard.md)
 
 ## Templates
 ### 💡 From the Team
