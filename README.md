@@ -58,7 +58,7 @@ Explore these SaaS templates by our awesome community 🤩
 | [**itsshresth/dmdom**](https://github.com/itsshresth/dmdom) | 1 | generates cold dms , by getting information about target's bio and recent tweets and user intent of dmming |  dm |
 | [**kash2104/insureai**](https://github.com/kash2104/insureai) | 0 | Upload your insurance documents and discover similar plans—all securely and efficiently. |  medical-insurance |
 | [**mayank-sengar/VC_Compass**](https://github.com/mayank-sengar/VC_Compass) | 1 | VC-Compass: An agent that matches startup pitches with relevant VCs by scraping investor data, detecting pitch domains, and evaluating fit using Alchemyst AI. |  vc |
-| [**soumyacodes007/AlcheAnimyst**](https://github.com/soumyacodes007/AlcheAnimyst) | 16 | AI tool that turns your written prompts or code into 2D animated videos with sound. Powered by Alchemyst AI |  |
+| [**soumyacodes007/AlcheAnimyst**](https://github.com/soumyacodes007/AlcheAnimyst) | 17 | AI tool that turns your written prompts or code into 2D animated videos with sound. Powered by Alchemyst AI |  |
 
 
 
