@@ -46,16 +46,16 @@ Make your next big AI idea come to life with the [Alchemyst AI Platform](https:/
 At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out - use the resources linked here to lock in and start shipping! 🚀🚀`;
 };
 
-const preMessageForTeam = () => {
+const preMessageForTeam = (count) => {
   return `### 💡 From the Team
 
-Explore these SaaS templates by our cracked team 🧨\n\n`;
+Explore these **${count}** SaaS templates by our cracked team 🧨\n\n`;
 };
 
-const preMessageForCommunity = () => {
+const preMessageForCommunity = (count) => {
   return `\n\n
 ### 🚀 From the Community
-Explore these SaaS templates by our awesome community 🤩\n\n`;
+Explore these **${count}** SaaS templates by our awesome community 🤩\n\n`;
 };
 
 const postMessageForTeam = () => {
@@ -85,7 +85,7 @@ const gatherReposFromTeam = () => {
   return fetch("https://api.github.com/users/alchemyst-ai/repos")
     .then((res) => res.json())
     .then((repoDataForTeam) => {
-      gatheredTeamRepoInfo += '\n' + preMessageForTeam();
+      gatheredTeamRepoInfo += '\n' + preMessageForTeam(repoDataForTeam.length);
       gatheredTeamRepoInfo += "\n| **Name** | **Stars** | **Description** | **Topic(s)** |";
       gatheredTeamRepoInfo += "\n| ---- | ---- | ---- | ---- |\n";
       repoDataForTeam.map((entry) => {
@@ -112,7 +112,7 @@ const gatherReposFromCommunity = () => {
     .then((res) => res.json())
     .then((data) => data.items ?? [])
     .then((communityRepoData) => {
-      gatheredCommunityRepoInfo += '\n' + preMessageForCommunity();
+      gatheredCommunityRepoInfo += '\n' + preMessageForCommunity(communityRepoData.length);
       gatheredCommunityRepoInfo += "\n| **Name** | **Stars** | **Description** | **Topic(s)** |";
       gatheredCommunityRepoInfo += "\n| ---- | ---- | ---- |  ---- |\n";
 
