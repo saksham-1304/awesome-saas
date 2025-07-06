@@ -26,7 +26,7 @@ We maintain the documentation of the Alchemyst API in the form of:
 ## Templates
 ### 💡 From the Team
 
-Explore these **11** SaaS templates by our cracked team 🧨
+Explore these **3** SaaS templates by our cracked team 🧨
 
 
 | **Name** | **Stars** | **Description** | **Topic(s)** |
@@ -41,7 +41,7 @@ This is an ever expanding list - we'll keep on adding open source templates!
 
 
 ### 🚀 From the Community
-Explore these **16** SaaS templates by our awesome community 🤩
+Explore these **13** SaaS templates by our awesome community 🤩
 
 
 | **Name** | **Stars** | **Description** | **Topic(s)** |
