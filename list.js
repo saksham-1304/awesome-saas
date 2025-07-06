@@ -85,7 +85,7 @@ const gatherReposFromTeam = () => {
   return fetch("https://api.github.com/users/alchemyst-ai/repos")
     .then((res) => res.json())
     .then((repoDataForTeam) => {
-      gatheredTeamRepoInfo += '\n' + preMessageForTeam(repoDataForTeam.length);
+      gatheredTeamRepoInfo += '\n' + preMessageForTeam(repoDataForTeam.filter(entry => entry.topics.includes("alchemyst-awesome-saas")).length);
       gatheredTeamRepoInfo += "\n| **Name** | **Stars** | **Description** | **Topic(s)** |";
       gatheredTeamRepoInfo += "\n| ---- | ---- | ---- | ---- |\n";
       repoDataForTeam.map((entry) => {
@@ -112,7 +112,7 @@ const gatherReposFromCommunity = () => {
     .then((res) => res.json())
     .then((data) => data.items ?? [])
     .then((communityRepoData) => {
-      gatheredCommunityRepoInfo += '\n' + preMessageForCommunity(communityRepoData.length);
+      gatheredCommunityRepoInfo += '\n' + preMessageForCommunity(communityRepoData.filter(entry => !entry.full_name.toLowerCase().startsWith("alchemyst-ai")).length);
       gatheredCommunityRepoInfo += "\n| **Name** | **Stars** | **Description** | **Topic(s)** |";
       gatheredCommunityRepoInfo += "\n| ---- | ---- | ---- |  ---- |\n";
 
