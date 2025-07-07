@@ -41,7 +41,7 @@ This is an ever expanding list - we'll keep on adding open source templates!
 
 
 ### 🚀 From the Community
-Explore these **13** SaaS templates by our awesome community 🤩
+Explore these **14** SaaS templates by our awesome community 🤩
 
 
 | **Name** | **Stars** | **Description** | **Topic(s)** |
@@ -49,6 +49,7 @@ Explore these **13** SaaS templates by our awesome community 🤩
 | [**asengupta07/MASHire**](https://github.com/asengupta07/MASHire) | 2 | MASHire is an intelligent and autonomous job posting and recruitment platform powered by AI. It automates candidate screening, interview scheduling, and communication, helping companies save time and hire better talent. |  hiring,  hr,  recruitment |
 | [**Ayash-Bera/socrates**](https://github.com/Ayash-Bera/socrates) | 7 | Deep Research bot made using alchemyst |  socrates |
 | [**Ayushjo/CodeNarratorWhole**](https://github.com/Ayushjo/CodeNarratorWhole) | 1 | ZenDocs is a full-stack MERN application that automatically generates clean, structured documentation from uploaded code files (ZIP). It parses your backend code, extracts endpoint and function details, and provides instant, downloadable documentation in both web and PDF format. |  |
+| [**Coden-inja/alchEmaiLyst**](https://github.com/Coden-inja/alchEmaiLyst) | 4 | A three agent system for leveraging AI to summarise, compose, send emails. Also stay away from spam |  email,  marketing |
 | [**foxy-dev1/Telegram-MemeGenerator-Bot**](https://github.com/foxy-dev1/Telegram-MemeGenerator-Bot) | 0 | A Telegram bot to make meme's of your Conversations to make you seem funnier or just to troll in your chats |  |
 | [**haroon0x/CliAgent**](https://github.com/haroon0x/CliAgent) | 1 | CliCode agent for automated python coding tasks using alchemyst ai proxy llm |  cliagent,  codeagent,  coding |
 | [**haroon0x/CrawlWise**](https://github.com/haroon0x/CrawlWise) | 1 | CrawlWise – The GEOAgent |  geo,  seo |
