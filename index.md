@@ -55,8 +55,8 @@ Explore these **14** SaaS templates by our awesome community 🤩
 | [**haroon0x/CrawlWise**](https://github.com/haroon0x/CrawlWise) | 1 | CrawlWise – The GEOAgent |  geo,  seo |
 | [**haroon0x/PromoAgent**](https://github.com/haroon0x/PromoAgent) | 1 | PromoAgent: An autonomous agent built with LangGraph using Alchemyst AI that discovers marketing opportunities on Reddit, generates tailored content and posts replies without getting blocked. |  marketing,  promotion |
 | [**hatif03/travel_mcp_agent**](https://github.com/hatif03/travel_mcp_agent) | 0 | plan your travel with ai. |  travel |
-| [**itsshresth/brainrot**](https://github.com/itsshresth/brainrot) | 2 | Generate brainrot ai videos about any topic you want (uses alchemyst ai) |  creator |
-| [**itsshresth/dmdom**](https://github.com/itsshresth/dmdom) | 1 | generates cold dms , by getting information about target's bio and recent tweets and user intent of dmming |  dm |
+| [**itsshresth/brainrot**](https://github.com/itsshresth/brainrot) | 3 | Generate brainrot ai videos about any topic you want (uses alchemyst ai) |  creator |
+| [**itsshresth/dmdom**](https://github.com/itsshresth/dmdom) | 2 | generates cold dms , by getting information about target's bio and recent tweets and user intent of dmming |  dm |
 | [**kash2104/insureai**](https://github.com/kash2104/insureai) | 0 | Upload your insurance documents and discover similar plans—all securely and efficiently. |  medical-insurance |
 | [**mayank-sengar/VC_Compass**](https://github.com/mayank-sengar/VC_Compass) | 2 | VC-Compass: An agent that matches startup pitches with relevant VCs by scraping investor data, detecting pitch domains, and evaluating fit using Alchemyst AI. |  vc |
 | [**soumyacodes007/AlcheAnimyst**](https://github.com/soumyacodes007/AlcheAnimyst) | 17 | AI tool that turns your written prompts or code into 2D animated videos with sound. Powered by Alchemyst AI |  |
