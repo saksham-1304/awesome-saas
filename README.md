@@ -1,81 +1,435 @@
 
-# Awesome Alchemyst Platform Cookbook
-Make your next big AI idea come to life with the [Alchemyst AI Platform](https://platform.getalchemystai.com).
+# 🧪 Alchemyst Platform Cookbook
 
-At Alchemyst AI, we love empowering developers and builders with AI. Below is a list of the projects that our team has put out - use the resources linked here to lock in and start shipping! 🚀🚀
+<div align="center">
+  <img src="https://img.shields.io/badge/AI-Platform-blue?style=for-the-badge&logo=artificial-intelligence" alt="AI Platform" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Community-14%20Projects-orange?style=for-the-badge" alt="Community Projects" />
+  <img src="https://img.shields.io/badge/Team-3%20Templates-purple?style=for-the-badge" alt="Team Templates" />
+</div>
 
-## Table of Contents
-  - [Learn about the Alchemyst APIs](#learn-about-the-alchemyst-apis)
-  - [Related Links](#related-links)
-  - [Templates](#templates)
-    - [💡 From the Team](#-from-the-team)
-    - [🚀 From the Community](#-from-the-community)
-  - [For contributors](#for-contributors)
-    - [Can't find your contributions?](#cant-find-your-contributions)
+<div align="center">
+  <h3>🚀 Make your next big AI idea come to life</h3>
+  <p>Empowering developers and builders with cutting-edge AI tools and templates</p>
 
+  <a href="https://platform.getalchemystai.com" target="_blank">
+    <img src="https://img.shields.io/badge/🔥%20Start%20Building-platform.getalchemystai.com-6366f1?style=for-the-badge&labelColor=1f2937" alt="Start Building" />
+  </a>
+</div>
 
-## Learn about the Alchemyst APIs
-We maintain the documentation of the Alchemyst API in the form of:
-- [OpenAPI Documentation](https://platform-backend.getalchemystai.com/api/v1/docs)
-- [API Documentation](https://alchemyst-ai.github.io/technical-docs) ![Static Badge](https://img.shields.io/badge/%20-new-blue)
-- [AI-native Documentation](https://zendocs.getalchemystai.com) ![Static Badge](https://img.shields.io/badge/%20-new-blue)
+<br />
 
-## Related Links
-- [**Community Leaderboard**](./leaderboard/README.md)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Rainbow line" />
+</div>
 
-## Templates
-### 💡 From the Team
+## 📋 Table of Contents
 
-Explore these **3** SaaS templates by our cracked team 🧨
+  - [🔗 API Documentation](#-api-documentation)
+  - [🎯 Quick Start](#-quick-start)
+- [Get started with the Alchemyst Platform](#get-started-with-the-alchemyst-platform)
+    - [💡 Official Templates](#-official-templates)
+    - [🚀 Community Templates](#-community-templates)
+  - [🏆 Community](#-community)
+  - [🤝 Contributing](#-contributing)
+    - [🎯 How to Contribute](#-how-to-contribute)
+    - [🔍 Troubleshooting](#-troubleshooting)
 
+<br />
 
-| **Name** | **Stars** | **Description** | **Topic(s)** |
-| ---- | ---- | ---- | ---- |
-| [**Alchemyst-ai/pitch-o-scope**](https://github.com/Alchemyst-ai/pitch-o-scope) | 1 | Pitch your idea according to the interests of the company you want to serve. |  b2b,  sales |
-| [**Alchemyst-ai/SyllabAI**](https://github.com/Alchemyst-ai/SyllabAI) | 8 | Upload your syllabus and study to the point based on the information provided without wasting any time |  education,  student |
-| [**Alchemyst-ai/zendocs**](https://github.com/Alchemyst-ai/zendocs) | 6 | Your public documentation processes should be easy. So should your SEO. |  b2b,  docs |
+## 🔗 API Documentation
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://platform-backend.getalchemystai.com/api/v1/docs" target="_blank">
+          <img src="https://img.shields.io/badge/OpenAPI-Documentation-85EA2D?style=for-the-badge&logo=swagger&logoColor=white" alt="OpenAPI" />
+        </a>
+        <br />
+        <sub><b>Interactive API Explorer</b></sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://alchemyst-ai.github.io/technical-docs" target="_blank">
+          <img src="https://img.shields.io/badge/API-Documentation-4FC08D?style=for-the-badge&logo=gitbook&logoColor=white" alt="API Docs" />
+        </a>
+        <br />
+        <sub><b>Technical Documentation</b></sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://zendocs.getalchemystai.com" target="_blank">
+          <img src="https://img.shields.io/badge/AI--native-Documentation-FF6B6B?style=for-the-badge&logo=robot&logoColor=white" alt="AI-native" />
+        </a>
+        <br />
+        <sub><b>AI-Powered Docs</b></sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+## 🎯 Quick Start
+
+```bash
+# Get started with the Alchemyst Platform
+curl -X GET https://platform.getalchemystai.com/api/v1/
+```
+
+> 💡 **Pro Tip**: Check out our [AI-native Documentation](https://zendocs.getalchemystai.com) for intelligent code examples!
+
+<br />## 📦 Templates
+
+### 💡 Official Templates
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Official%20Templates-3%20Available-4F46E5?style=for-the-badge" alt="Official Templates" />
+</div>
+
+<br />
+
+<table>
+  <tr>
+    <th width="200">🎯 Project</th>
+    <th width="100">⭐ Stars</th>
+    <th width="400">📝 Description</th>
+    <th width="150">🏷️ Topics</th>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Alchemyst-ai/pitch-o-scope">
+        <img src="https://img.shields.io/badge/pitch--o--scope-1f2937?style=for-the-badge&logo=github" alt="pitch-o-scope" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/Alchemyst-ai/pitch-o-scope?style=social" alt="Stars" />
+    </td>
+    <td>Pitch your idea according to the interests of the company you want to serve.</td>
+    <td>
+      <img src="https://img.shields.io/badge/b2b-blue?style=flat-square" alt="b2b" />
+      <img src="https://img.shields.io/badge/sales-green?style=flat-square" alt="sales" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Alchemyst-ai/SyllabAI">
+        <img src="https://img.shields.io/badge/SyllabAI-1f2937?style=for-the-badge&logo=github" alt="SyllabAI" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/Alchemyst-ai/SyllabAI?style=social" alt="Stars" />
+    </td>
+    <td>Upload your syllabus and study to the point based on the information provided without wasting any time</td>
+    <td>
+      <img src="https://img.shields.io/badge/education-blue?style=flat-square" alt="education" />
+      <img src="https://img.shields.io/badge/student-green?style=flat-square" alt="student" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Alchemyst-ai/zendocs">
+        <img src="https://img.shields.io/badge/zendocs-1f2937?style=for-the-badge&logo=github" alt="zendocs" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/Alchemyst-ai/zendocs?style=social" alt="Stars" />
+    </td>
+    <td>Your public documentation processes should be easy. So should your SEO.</td>
+    <td>
+      <img src="https://img.shields.io/badge/b2b-blue?style=flat-square" alt="b2b" />
+      <img src="https://img.shields.io/badge/docs-green?style=flat-square" alt="docs" />
+    </td>
+  </tr></table>
+
+<br />
 
 This is an ever expanding list - we'll keep on adding open source templates!
 
 
+<br />
 
-### 🚀 From the Community
-Explore these **14** SaaS templates by our awesome community 🤩
+### 🚀 Community Templates
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Community%20Templates-14%20Available-FF6B6B?style=for-the-badge" alt="Community Templates" />
+</div>
 
-| **Name** | **Stars** | **Description** | **Topic(s)** |
-| ---- | ---- | ---- |  ---- |
-| [**asengupta07/MASHire**](https://github.com/asengupta07/MASHire) | 3 | MASHire is an intelligent and autonomous job posting and recruitment platform powered by AI. It automates candidate screening, interview scheduling, and communication, helping companies save time and hire better talent. |  hiring,  hr,  recruitment |
-| [**Ayash-Bera/socrates**](https://github.com/Ayash-Bera/socrates) | 7 | Deep Research bot made using alchemyst |  socrates |
-| [**Ayushjo/CodeNarratorWhole**](https://github.com/Ayushjo/CodeNarratorWhole) | 1 | ZenDocs is a full-stack MERN application that automatically generates clean, structured documentation from uploaded code files (ZIP). It parses your backend code, extracts endpoint and function details, and provides instant, downloadable documentation in both web and PDF format. |  |
-| [**Coden-inja/alchEmaiLyst**](https://github.com/Coden-inja/alchEmaiLyst) | 7 | A three agent system for leveraging AI to summarise, compose, send emails. Also stay away from spam |  email,  marketing |
-| [**foxy-dev1/Telegram-MemeGenerator-Bot**](https://github.com/foxy-dev1/Telegram-MemeGenerator-Bot) | 0 | A Telegram bot to make meme's of your Conversations to make you seem funnier or just to troll in your chats |  |
-| [**haroon0x/CliAgent**](https://github.com/haroon0x/CliAgent) | 1 | CliCode agent for automated python coding tasks using alchemyst ai proxy llm |  cliagent,  codeagent,  coding |
-| [**haroon0x/CrawlWise**](https://github.com/haroon0x/CrawlWise) | 1 | CrawlWise – The GEOAgent |  geo,  seo |
-| [**haroon0x/PromoAgent**](https://github.com/haroon0x/PromoAgent) | 1 | PromoAgent: An autonomous agent built with LangGraph using Alchemyst AI that discovers marketing opportunities on Reddit, generates tailored content and posts replies without getting blocked. |  marketing,  promotion |
-| [**hatif03/travel_mcp_agent**](https://github.com/hatif03/travel_mcp_agent) | 0 | plan your travel with ai. |  travel |
-| [**itsshresth/brainrot**](https://github.com/itsshresth/brainrot) | 3 | Generate brainrot ai videos about any topic you want (uses alchemyst ai) |  creator |
-| [**itsshresth/dmdom**](https://github.com/itsshresth/dmdom) | 2 | generates cold dms , by getting information about target's bio and recent tweets and user intent of dmming |  dm |
-| [**kash2104/insureai**](https://github.com/kash2104/insureai) | 0 | Upload your insurance documents and discover similar plans—all securely and efficiently. |  medical-insurance |
-| [**mayank-sengar/VC_Compass**](https://github.com/mayank-sengar/VC_Compass) | 2 | VC-Compass: An agent that matches startup pitches with relevant VCs by scraping investor data, detecting pitch domains, and evaluating fit using Alchemyst AI. |  vc |
-| [**soumyacodes007/AlcheAnimyst**](https://github.com/soumyacodes007/AlcheAnimyst) | 17 | AI tool that turns your written prompts or code into 2D animated videos with sound. Powered by Alchemyst AI |  |
+<br />
 
+<table>
+  <tr>
+    <th width="200">🎯 Project</th>
+    <th width="100">⭐ Stars</th>
+    <th width="400">📝 Description</th>
+    <th width="150">🏷️ Topics</th>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/asengupta07/MASHire">
+        <img src="https://img.shields.io/badge/MASHire-1f2937?style=for-the-badge&logo=github" alt="MASHire" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/asengupta07/MASHire?style=social" alt="Stars" />
+    </td>
+    <td>MASHire is an intelligent and autonomous job posting and recruitment platform powered by AI. It automates candidate screening, interview scheduling, and communication, helping companies save time and hire better talent.</td>
+    <td>
+      <img src="https://img.shields.io/badge/hiring-blue?style=flat-square" alt="hiring" />
+      <img src="https://img.shields.io/badge/hr-green?style=flat-square" alt="hr" />
+      <img src="https://img.shields.io/badge/recruitment-purple?style=flat-square" alt="recruitment" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Ayash-Bera/socrates">
+        <img src="https://img.shields.io/badge/socrates-1f2937?style=for-the-badge&logo=github" alt="socrates" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/Ayash-Bera/socrates?style=social" alt="Stars" />
+    </td>
+    <td>Deep Research bot made using alchemyst</td>
+    <td>
+      <img src="https://img.shields.io/badge/socrates-blue?style=flat-square" alt="socrates" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Ayushjo/CodeNarratorWhole">
+        <img src="https://img.shields.io/badge/CodeNarratorWhole-1f2937?style=for-the-badge&logo=github" alt="CodeNarratorWhole" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/Ayushjo/CodeNarratorWhole?style=social" alt="Stars" />
+    </td>
+    <td>ZenDocs is a full-stack MERN application that automatically generates clean, structured documentation from uploaded code files (ZIP). It parses your backend code, extracts endpoint and function details, and provides instant, downloadable documentation in both web and PDF format.</td>
+    <td>
+      -
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Coden-inja/alchEmaiLyst">
+        <img src="https://img.shields.io/badge/alchEmaiLyst-1f2937?style=for-the-badge&logo=github" alt="alchEmaiLyst" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/Coden-inja/alchEmaiLyst?style=social" alt="Stars" />
+    </td>
+    <td>A three agent system for leveraging AI to summarise, compose, send emails. Also stay away from spam</td>
+    <td>
+      <img src="https://img.shields.io/badge/email-blue?style=flat-square" alt="email" />
+      <img src="https://img.shields.io/badge/marketing-green?style=flat-square" alt="marketing" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/foxy-dev1/Telegram-MemeGenerator-Bot">
+        <img src="https://img.shields.io/badge/Telegram--MemeGenerator--Bot-1f2937?style=for-the-badge&logo=github" alt="Telegram-MemeGenerator-Bot" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/foxy-dev1/Telegram-MemeGenerator-Bot?style=social" alt="Stars" />
+    </td>
+    <td>A Telegram bot to make meme's of your Conversations to make you seem funnier or just to troll in your chats</td>
+    <td>
+      -
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/haroon0x/CliAgent">
+        <img src="https://img.shields.io/badge/CliAgent-1f2937?style=for-the-badge&logo=github" alt="CliAgent" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/haroon0x/CliAgent?style=social" alt="Stars" />
+    </td>
+    <td>CliCode agent for automated python coding tasks using alchemyst ai proxy llm</td>
+    <td>
+      <img src="https://img.shields.io/badge/cliagent-blue?style=flat-square" alt="cliagent" />
+      <img src="https://img.shields.io/badge/codeagent-green?style=flat-square" alt="codeagent" />
+      <img src="https://img.shields.io/badge/coding-purple?style=flat-square" alt="coding" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/haroon0x/CrawlWise">
+        <img src="https://img.shields.io/badge/CrawlWise-1f2937?style=for-the-badge&logo=github" alt="CrawlWise" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/haroon0x/CrawlWise?style=social" alt="Stars" />
+    </td>
+    <td>CrawlWise – The GEOAgent</td>
+    <td>
+      <img src="https://img.shields.io/badge/geo-blue?style=flat-square" alt="geo" />
+      <img src="https://img.shields.io/badge/seo-green?style=flat-square" alt="seo" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/haroon0x/PromoAgent">
+        <img src="https://img.shields.io/badge/PromoAgent-1f2937?style=for-the-badge&logo=github" alt="PromoAgent" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/haroon0x/PromoAgent?style=social" alt="Stars" />
+    </td>
+    <td>PromoAgent: An autonomous agent built with LangGraph using Alchemyst AI that discovers marketing opportunities on Reddit, generates tailored content and posts replies without getting blocked.</td>
+    <td>
+      <img src="https://img.shields.io/badge/marketing-blue?style=flat-square" alt="marketing" />
+      <img src="https://img.shields.io/badge/promotion-green?style=flat-square" alt="promotion" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/hatif03/travel_mcp_agent">
+        <img src="https://img.shields.io/badge/travel_mcp_agent-1f2937?style=for-the-badge&logo=github" alt="travel_mcp_agent" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/hatif03/travel_mcp_agent?style=social" alt="Stars" />
+    </td>
+    <td>plan your travel with ai.</td>
+    <td>
+      <img src="https://img.shields.io/badge/travel-blue?style=flat-square" alt="travel" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/itsshresth/brainrot">
+        <img src="https://img.shields.io/badge/brainrot-1f2937?style=for-the-badge&logo=github" alt="brainrot" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/itsshresth/brainrot?style=social" alt="Stars" />
+    </td>
+    <td>Generate brainrot ai videos about any topic you want (uses alchemyst ai)</td>
+    <td>
+      <img src="https://img.shields.io/badge/creator-blue?style=flat-square" alt="creator" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/itsshresth/dmdom">
+        <img src="https://img.shields.io/badge/dmdom-1f2937?style=for-the-badge&logo=github" alt="dmdom" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/itsshresth/dmdom?style=social" alt="Stars" />
+    </td>
+    <td>generates cold dms , by getting information about target's bio and recent tweets and user intent of dmming</td>
+    <td>
+      <img src="https://img.shields.io/badge/dm-blue?style=flat-square" alt="dm" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/kash2104/insureai">
+        <img src="https://img.shields.io/badge/insureai-1f2937?style=for-the-badge&logo=github" alt="insureai" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/kash2104/insureai?style=social" alt="Stars" />
+    </td>
+    <td>Upload your insurance documents and discover similar plans—all securely and efficiently.</td>
+    <td>
+      <img src="https://img.shields.io/badge/medical-insurance-blue?style=flat-square" alt="medical-insurance" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/mayank-sengar/VC_Compass">
+        <img src="https://img.shields.io/badge/VC_Compass-1f2937?style=for-the-badge&logo=github" alt="VC_Compass" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/mayank-sengar/VC_Compass?style=social" alt="Stars" />
+    </td>
+    <td>VC-Compass: An agent that matches startup pitches with relevant VCs by scraping investor data, detecting pitch domains, and evaluating fit using Alchemyst AI.</td>
+    <td>
+      <img src="https://img.shields.io/badge/vc-blue?style=flat-square" alt="vc" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/soumyacodes007/AlcheAnimyst">
+        <img src="https://img.shields.io/badge/AlcheAnimyst-1f2937?style=for-the-badge&logo=github" alt="AlcheAnimyst" />
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/soumyacodes007/AlcheAnimyst?style=social" alt="Stars" />
+    </td>
+    <td>AI tool that turns your written prompts or code into 2D animated videos with sound. Powered by Alchemyst AI</td>
+    <td>
+      -
+    </td>
+  </tr></table>
 
+<br />
 
+## 🏆 Community
 
+<div align="center">
+      <td align="center" width="50%">
+        <a href="https://github.com/Alchemyst-ai/awesome-saas/blob/main/leaderboard/README.md">
+          <img src="https://img.shields.io/badge/🏆%20Community-Leaderboard-FFD700?style=for-the-badge&logo=trophy" alt="Leaderboard" />
+        </a>
+        <br />
+        <sub><b>See top contributors</b></sub>
+      </td>
+</div>
 
-## For contributors
+<br />
 
-Contributors are welcome! Get started by contributing to our projects! **Have a new idea?** Do tell us about it [***here***](https://github.com/orgs/alchemyst-ai/discussions/1)!
+## 🤝 Contributing
 
-### Can't find your contributions?
-Consider doing the following:
+We welcome contributors! Here's how to get started:
 
-- Check if you have set your repo to public.
-- Check if you have added a topic "alchemyst-awesome-saas" on your repo.
-- If your repo tags don't show up yet, check if you have added topics starting with "alchemyst-awesome-saas".
+### 🎯 How to Contribute
 
-**NOTE**: This list refreshes once a day at 12:00 AM UTC. Please be patient while it does :D.
+1. **Fork the repository** and create your feature branch
+2. **Add the topic** `alchemyst-awesome-saas` to your repository
+3. **Make your repo public** for visibility
+4. **Submit a pull request** with your awesome project!
 
-If it still doesn't show up, please [**raise an issue**](https://github.com/Alchemyst-ai/awesome-saas/issues/new)
+### 🔍 Troubleshooting
+
+<details>
+<summary><b>My contribution doesn't appear in the list</b></summary>
+
+Check the following:
+
+- ✅ Repository is set to **public**
+- ✅ Added topic **"alchemyst-awesome-saas"** to your repo
+- ✅ Wait for the **daily refresh** at 12:00 AM UTC
+- ✅ If still missing, [**raise an issue**](https://github.com/Alchemyst-ai/awesome-saas/issues/new)
+
+</details>
+
+<br />
+
+---
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Rainbow line" />
+
+  <h3>🚀 Ready to build something amazing?</h3>
+
+  <a href="https://platform.getalchemystai.com" target="_blank">
+    <img src="https://img.shields.io/badge/Get%20Started%20Now-6366f1?style=for-the-badge&logo=rocket&logoColor=white" alt="Get Started" />
+  </a>
+
+  <br /><br />
+
+  <p>Made with ❤️ by the Alchemyst AI Team</p>
+
+  <a href="https://github.com/Alchemyst-ai/awesome-saas/stargazers">
+    <img src="https://img.shields.io/github/stars/Alchemyst-ai/awesome-saas?style=social" alt="GitHub Stars" />
+  </a>
+  <a href="https://github.com/Alchemyst-ai/awesome-saas/network/members">
+    <img src="https://img.shields.io/github/forks/Alchemyst-ai/awesome-saas?style=social" alt="GitHub Forks" />
+  </a>
+
+</div>
